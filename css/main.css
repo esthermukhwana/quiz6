@@ -1,0 +1,55 @@
+body{
+	background-color: #ccc;
+	font-family: arial,helvetica,sans-serif;
+}
+
+.cont{
+	width: 600px;
+	margin: 50px auto;
+	min-height: 300px;
+	background-color: #fff;
+}
+
+.cont table {
+	border-collapse: collapse;
+	border:1px solid #666;
+	width: 100%;
+	background-color: #fff;
+}
+  
+
+.cont table tr{
+	border-bottom: 1px solid #666;
+}
+
+
+.cont table tr td{
+	font-size: 14px;
+	padding: 10px;
+	border-right: 1px solid #666;
+}
+
+
+
+.cont table tr:nth-child(odd){
+	background-color: rgba(0,0,0,0.1);
+}
+
+
+.cont table tr th{
+	font-size: 16px;
+	padding: 10px;
+	color: #fff;
+	background-color: rgba(0,0,0,0.6);
+    border-right:1px solid #fff; 
+    font-weight: bold;
+    text-align: left;
+}
+
+.cont table tr th{
+	border-bottom: 1px solid #666;
+	text-align: left;
+
+
+}
+
